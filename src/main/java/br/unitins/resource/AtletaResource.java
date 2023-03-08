@@ -92,5 +92,12 @@ public class AtletaResource {
         return null;
 
     }
+    
+    // pesquisa nome
+    @GET
+    @Path("/searchList/{modelo}")
+    public List<Atleta> searchList(@PathParam("nome") String nome){
+        return repository.findByNomeList(nome);
+    }
 
 }
