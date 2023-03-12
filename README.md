@@ -1,4 +1,5 @@
 # topicos1
+Project done in the classroom with Professor Jânio Teixeira in the subject of Topics 1.
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
